@@ -11,6 +11,8 @@ body{
   flex-direction: column;
   height: 100vh;
   gap: 12px;
+  background-color: black;
+  color: whitesmoke;
 }
 h1{
   font-size: 48px;
@@ -22,4 +24,16 @@ img{
 ol{
   color: darkolivegreen;
   font-size: 16px;
+}
+button{
+  padding: 12px 24px;
+  text-transform: uppercase;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+  border-radius: 12px;
+  color: white;
+}
+button:hover{
+  background-color: aliceblue;
+  cursor: pointer;
 }
