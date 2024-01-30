@@ -21,9 +21,10 @@ img{
   width: 300px;
   border-radius: 12px;
 }
-ol{
+ul{
   color: darkolivegreen;
   font-size: 16px;
+  display: none;
 }
 button{
   padding: 12px 24px;
@@ -36,4 +37,10 @@ button{
 button:hover{
   background-color: aliceblue;
   cursor: pointer;
+}
+#burger{
+  display: none;
+}
+#burger:checked ~ .responsive-hidden{
+  display: block;
 }

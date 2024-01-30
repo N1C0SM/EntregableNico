@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -7,20 +7,28 @@
   <title>Mi HTML</title>
   <link rel="stylesheet" href="./CSS/styleNico.css">
   <script src="./js/scipt.js"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
 <body>
   <img src="./IMG/foto-1.jpg" alt="foto-1">
-  <h1>Esta es mi pagina web</h1>
+  <h1>Esta es una prueba practica del examen del 30/01/2024</h1>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos qui ad enim sit provident, nesciunt accusamus?
     Sapiente earum fugit obcaecati.</p>
-  <h2>Mis hobbies</h2>
-  <ol>
-    <li>Correr</li>
-    <li>Nadar</li>
-    <li>Programar</li>
-  </ol>
-  <button> click</button>
+  <h2>Mis propia navegación hamburguesa</h2>
+  <nav>
+    <input type="checkbox" id="burger">
+    <label for="burger" class="burger">
+      <i class="ph-duotone ph-list"></i>
+    </label>
+    <ul class="responsive-hidden">
+      <li>inicio</li>
+      <li>contacto</li>
+      <li>servicios</li>
+    </ul>
+
+  </nav>
+  <button>dale</button>
 </body>
 
 </html>
